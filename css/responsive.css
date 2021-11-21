@@ -183,6 +183,15 @@
 
            .about-more{
             margin-top: 1rem;
+
+          }
+
+          .btn::before{
+          display: none;
+          }
+
+          .btn1:hover{
+            display: none;
           }
 
           .btn{
@@ -574,6 +583,11 @@
 
 
  /* about me page */
+
+    input{
+      -webkit-appearance: none;
+    }
+
     #cover{
       width: 49vw;
       height: 75vh;
@@ -589,7 +603,7 @@
 
     p{
       font-size: 1rem;
-      line-height: 1rem;
+      line-height: 1.5rem;
       padding: 0.5rem;
     }
     
