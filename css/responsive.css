@@ -588,14 +588,14 @@
     }
 
     #cover{
-      width: 49vw;
-      height: 75vh;
+      width: 250px;
+      height: 550px;
     }
 
   
     .flip-book{
-      width: 49vw;
-      height: 75vh;
+      width: 250px;
+      height: 550px;
       position: relative;
       /* perspective: 1500px; */
     }
