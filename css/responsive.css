@@ -583,19 +583,17 @@
 
  /* about me page */
 
-    input{
-      -webkit-appearance: none;
-    }
+    
 
     #cover{
-      width: 250px;
-      height: 550px;
+      width: 48vw;
+      height: 65vh;
     }
 
   
     .flip-book{
-      width: 250px;
-      height: 550px;
+      width: 48vw;
+      height: 65vh;
       position: relative;
       /* perspective: 1500px; */
     }
