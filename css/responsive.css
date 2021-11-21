@@ -189,24 +189,14 @@
           
 
           .btn{
+           display: none;
+          }
+
+          .btn-sp{
+            display: inline-block;
+            border: 1px solid #333;
             padding: 1.5rem 2em;
             font-size: 2rem;
-          }
-
-          .btn::before{
-            background: #fff;
-            content: "";
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%,-50%);
-            z-index: -1;
-            transition: all 0.6s ease;
-          }
-
-          .btn1:hover{
-            color:#333;
-            z-index: 2;
           }
           /*  */
 
@@ -639,6 +629,7 @@
   
     
   }
+
 
  
 
